@@ -25,7 +25,7 @@ export default class App extends Component{
     }
 
 
-    People = () => this.state.people.map(p => <Person name={p.name} craft={p.craft}/>)
+    People = () => this.state.people.map(person => <Person name={person.name} craft={person.craft}/>)
 
     render(){
 
